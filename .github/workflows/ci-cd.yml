@@ -17,8 +17,8 @@ jobs:
         image: mysql:5.7
         env:
           ## Accessing to Github secrets, where you can store your configuration
-          MYSQL_ROOT_PASSWORD: root
-          MYSQL_DATABASE: test_db
+          MYSQL_ROOT_PASSWORD: 1234
+          MYSQL_DATABASE: laravel
         ## map the "external" 3306 port with the "internal" 3306
         ports:
           - 3306:3306
