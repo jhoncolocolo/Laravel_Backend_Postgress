@@ -1,0 +1,38 @@
+[
+	{
+		"id" : 1,
+		"name_en" : "First Edition",
+		"name_es" : "Primera Edición",
+		"meaning_name_en" : "This is the first time in one edition.",
+		"meaning_name_es" : "Esta es la primera edición.",
+		"created_at" : "2022-03-08 22:56:05",
+		"updated_at" : "2022-03-11 23:53:04"
+	},
+	{
+		"id" : 2,
+		"name_en" : "Second Edition",
+		"name_es" : "Segunda Edición",
+		"meaning_name_en" : "This is the second time in one edition.",
+		"meaning_name_es" : "Esta es la segunda edición.",
+		"created_at" : "2022-03-10 15:53:48",
+		"updated_at" : "2022-03-10 15:54:21"
+	},
+	{
+		"id" : 3,
+		"name_en" : "Thanks",
+		"name_es" : "Gracias",
+		"meaning_name_en" : "Is for Say To Other People How many greatfull With Their",
+		"meaning_name_es" : "Es para decirle a otra gente que tan agradecidos estamos con ellos",
+		"created_at" : "2022-03-10 23:51:26",
+		"updated_at" : "2022-03-10 23:51:26"
+	},
+	{
+		"id" : 4,
+		"name_en" : "SPA",
+		"name_es" : "ADUSP",
+		"meaning_name_en" : "Single Page Application",
+		"meaning_name_es" : "Aplicación de una sola página",
+		"created_at" : "2022-03-11 23:55:17",
+		"updated_at" : "2022-03-11 23:55:17"
+	}
+]

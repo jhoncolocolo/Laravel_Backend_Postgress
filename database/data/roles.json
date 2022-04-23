@@ -1,0 +1,42 @@
+[
+	{
+		"id" : 1,
+		"name" : "Admin",
+		"role" : "admin",
+		"description" : "System Administrator",
+		"created_at" : "2022-03-08 14:46:17",
+		"updated_at" : "2022-03-08 14:46:17"
+	},
+	{
+		"id" : 2,
+		"name" : "CRUD Role",
+		"role" : "crud",
+		"description" : "Role that can Select, Save, Update and Delete Information",
+		"created_at" : "2022-03-08 14:47:20",
+		"updated_at" : "2022-03-08 14:47:20"
+	},
+	{
+		"id" : 3,
+		"name" : "CRU Role",
+		"role" : "cru",
+		"description" : "Role that can Select, Save, and Update Information\tbut no delete it",
+		"created_at" : "2022-03-08 14:47:59",
+		"updated_at" : "2022-03-08 14:49:04"
+	},
+	{
+		"id" : 4,
+		"name" : "CR Role",
+		"role" : "cr",
+		"description" : "Role that can Select and Create Information on system",
+		"created_at" : "2022-03-08 14:50:16",
+		"updated_at" : "2022-03-08 14:51:42"
+	},
+	{
+		"id" : 5,
+		"name" : "R Role",
+		"role" : "r",
+		"description" : "Role that can only  Read Information in data System",
+		"created_at" : "2022-03-08 14:51:10",
+		"updated_at" : "2022-03-08 14:51:10"
+	}
+]

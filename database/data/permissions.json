@@ -1,0 +1,245 @@
+[
+	{
+		"id" : 1,
+		"name" : "Users List ",
+		"route" : "users",
+		"path" : "/users",
+		"description" : "See Permissions List Information",
+		"created_at" : "2022-03-08 14:55:25",
+		"updated_at" : "2022-03-08 15:19:35"
+	},
+	{
+		"id" : 2,
+		"name" : "User's Store",
+		"route" : "users.store",
+		"path" : null,
+		"description" : "Access To Form to store New User",
+		"created_at" : "2022-03-08 14:56:20",
+		"updated_at" : "2022-03-08 14:59:10"
+	},
+	{
+		"id" : 3,
+		"name" : "User's Update",
+		"route" : "users.update",
+		"path" : null,
+		"description" : "Access To Update One Exists User",
+		"created_at" : "2022-03-08 14:57:06",
+		"updated_at" : "2022-03-08 14:58:50"
+	},
+	{
+		"id" : 4,
+		"name" : "User's Delete",
+		"route" : "users.delete",
+		"path" : null,
+		"description" : "Allow Delete Users of system",
+		"created_at" : "2022-03-08 14:57:53",
+		"updated_at" : "2022-03-08 15:19:04"
+	},
+	{
+		"id" : 5,
+		"name" : "Permissions List",
+		"route" : "permissions.index",
+		"path" : "/permissions",
+		"description" : "See Permissions List Information",
+		"created_at" : "2022-03-08 14:55:25",
+		"updated_at" : "2022-03-08 15:18:48"
+	},
+	{
+		"id" : 6,
+		"name" : "Permission's Store",
+		"route" : "permissions.store",
+		"path" : null,
+		"description" : "Allow Saving Permissions",
+		"created_at" : "2022-03-08 14:56:20",
+		"updated_at" : "2022-03-08 15:23:27"
+	},
+	{
+		"id" : 7,
+		"name" : "Permission's Update",
+		"route" : "permissions.update",
+		"path" : null,
+		"description" : "Allow Permission's Update",
+		"created_at" : "2022-03-08 14:57:06",
+		"updated_at" : "2022-03-08 15:20:35"
+	},
+	{
+		"id" : 8,
+		"name" : "Permission's Delete",
+		"route" : "permissions.delete",
+		"path" : null,
+		"description" : "Allow Delete  Permission's Delete",
+		"created_at" : "2022-03-08 14:57:53",
+		"updated_at" : "2022-03-08 15:19:56"
+	},
+	{
+		"id" : 12,
+		"name" : "Roles List",
+		"route" : "roles.index",
+		"path" : "/roles",
+		"description" : "See Roles List Information",
+		"created_at" : "2022-03-08 14:55:25",
+		"updated_at" : "2022-03-08 15:17:05"
+	},
+	{
+		"id" : 13,
+		"name" : "Role's Store",
+		"route" : "roles.store",
+		"path" : null,
+		"description" : "Allow saving Roles",
+		"created_at" : "2022-03-08 14:56:20",
+		"updated_at" : "2022-03-08 15:22:09"
+	},
+	{
+		"id" : 14,
+		"name" : "Role's Update",
+		"route" : "roles.update",
+		"path" : null,
+		"description" : "Allow updating Roles\t",
+		"created_at" : "2022-03-08 14:57:06",
+		"updated_at" : "2022-03-08 15:22:33"
+	},
+	{
+		"id" : 15,
+		"name" : "Role's Delete",
+		"route" : "roles.delete",
+		"path" : null,
+		"description" : "Allow Delete Roles\t",
+		"created_at" : "2022-03-08 14:57:53",
+		"updated_at" : "2022-03-08 15:23:00"
+	},
+	{
+		"id" : 16,
+		"name" : "Role Users",
+		"route" : "role_users.index",
+		"path" : "/role_users",
+		"description" : "Allow  To see Role Users List Information",
+		"created_at" : "2022-03-08 14:55:25",
+		"updated_at" : "2022-03-08 15:17:47"
+	},
+	{
+		"id" : 17,
+		"name" : "Role User's Store",
+		"route" : "role_users.store",
+		"path" : null,
+		"description" : "Allow Role Users To Store  Information",
+		"created_at" : "2022-03-08 14:56:20",
+		"updated_at" : "2022-03-08 15:15:50"
+	},
+	{
+		"id" : 18,
+		"name" : "Role User's Update",
+		"route" : "role_users.update",
+		"path" : null,
+		"description" : "Allow Role Users To Update  Information",
+		"created_at" : "2022-03-08 14:57:06",
+		"updated_at" : "2022-03-08 15:15:59"
+	},
+	{
+		"id" : 19,
+		"name" : "Role User's Delete",
+		"route" : "role_users.delete",
+		"path" : null,
+		"description" : "Allow Role Users To Delete Information",
+		"created_at" : "2022-03-08 14:57:53",
+		"updated_at" : "2022-03-08 15:16:07"
+	},
+	{
+		"id" : 27,
+		"name" : "Permission Roles List ",
+		"route" : "permission_roles.index",
+		"path" : "/permission_roles",
+		"description" : "See Permission Roles List Information",
+		"created_at" : "2022-03-08 14:55:25",
+		"updated_at" : "2022-03-08 16:05:55"
+	},
+	{
+		"id" : 28,
+		"name" : "Permission Role's Store",
+		"route" : "permission_roles.store",
+		"path" : null,
+		"description" : "Access To Form to store New Permission Role",
+		"created_at" : "2022-03-08 14:56:20",
+		"updated_at" : "2022-03-08 14:59:10"
+	},
+	{
+		"id" : 29,
+		"name" : "Permission Role's Update",
+		"route" : "permission_roles.update",
+		"path" : null,
+		"description" : "Access To Update One Exists Permission Role",
+		"created_at" : "2022-03-08 14:57:06",
+		"updated_at" : "2022-03-08 14:58:50"
+	},
+	{
+		"id" : 30,
+		"name" : "Permission Role's Delete",
+		"route" : "permission_roles.delete",
+		"path" : null,
+		"description" : "Allow Delete Permission Roles of system",
+		"created_at" : "2022-03-08 14:57:53",
+		"updated_at" : "2022-03-08 15:19:04"
+	},
+	{
+		"id" : 34,
+		"name" : "Languages List ",
+		"route" : "languages.index",
+		"path" : "/languages",
+		"description" : "See Languages List Information",
+		"created_at" : "2022-03-08 14:55:25",
+		"updated_at" : "2022-03-08 16:05:43"
+	},
+	{
+		"id" : 35,
+		"name" : "Language's Store",
+		"route" : "languages.store",
+		"path" : null,
+		"description" : "Access To Form to store New Language",
+		"created_at" : "2022-03-08 14:56:20",
+		"updated_at" : "2022-03-08 14:59:10"
+	},
+	{
+		"id" : 36,
+		"name" : "Language's Update",
+		"route" : "languages.update",
+		"path" : null,
+		"description" : "Access To Update One Exists Language",
+		"created_at" : "2022-03-08 14:57:06",
+		"updated_at" : "2022-03-08 14:58:50"
+	},
+	{
+		"id" : 37,
+		"name" : "Language's Delete",
+		"route" : "languages.destroy",
+		"path" : null,
+		"description" : "Allow Delete Languages of system",
+		"created_at" : "2022-03-08 14:57:53",
+		"updated_at" : "2022-03-08 15:19:04"
+	},
+	{
+		"id" : 38,
+		"name" : "Show Language By Parameter",
+		"route" : "languages.show",
+		"path" : null,
+		"description" : "See Language By Parameter",
+		"created_at" : "2022-03-08 14:55:25",
+		"updated_at" : "2022-03-08 16:05:43"
+	},
+	{
+		"id" : 39,
+		"name" : "Create Language",
+		"route" : "languages.create",
+		"path" : "/languages/create",
+		"description" : "Show Form Languages",
+		"created_at" : null,
+		"updated_at" : null
+	},
+	{
+		"id" : 40,
+		"name" : "Edit Language",
+		"route" : "languages.edit",
+		"path" : "/languages/edit",
+		"description" : "Show Form Languages",
+		"created_at" : null,
+		"updated_at" : null
+	}
+]
