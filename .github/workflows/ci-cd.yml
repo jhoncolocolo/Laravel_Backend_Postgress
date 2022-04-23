@@ -62,17 +62,3 @@ jobs:
 
       - name: Execute tests
         run: vendor/bin/phpunit --verbose
-
-  deploy:
-    image:  ruby:latest
-    stage:  deploy
-    before_script:
-      - git config  --global  user.email  "jecl6386@hotmail.com"
-      - git config  --global  user.name  "Jonathan Colorado"
-      - git add composer.lock composer.json
-      - git commit  -m  "add  composer lock"
-      - gem install dpl
-    script:
-      - dpl --provider=heroku --app=${{ secrets.HEROKU_APP_NAME }}  --api-key=${{ secrets.KEY }}
-    only:
-      - main
