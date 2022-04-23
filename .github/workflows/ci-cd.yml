@@ -17,8 +17,8 @@ jobs:
         image: mysql:5.7
         env:
           ## Accessing to Github secrets, where you can store your configuration
-          MYSQL_ROOT_PASSWORD: ${{ secrets.DATABASE }}
-          MYSQL_DATABASE: ${{ secrets.DATABASE }}
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: test_db
         ## map the "external" 3306 port with the "internal" 3306
         ports:
           - 3306:3306
@@ -98,5 +98,5 @@ jobs:
           SERVER_PORT: ${{ secrets.PORT }}
           FOLDER: "./"
           SERVER_IP: ${{ secrets.HOST }}
-          DB_USERNAME: ${{ secrets.USERNAME }}
+          USERNAME: ${{ secrets.USERNAME }}
           SERVER_DESTINATION: "/var/www/html"
