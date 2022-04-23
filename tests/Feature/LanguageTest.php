@@ -22,8 +22,8 @@ class LanguageTest extends TestCase
         parent::setUp();
         //Base Factories
         $this->roleAdmin = Role::create(["id" => 1,"name" => "Admin","role" => "admin","description" => "System Administrator"]);
-        $this->role_crud = Role::create(["name" => "CRUD Role","role" => null,"description" => "Role that can Select, Save, Update and Delete Information"]);
-        $this->role_cru = Role::create(["name" => "CRU Role","role" => null,"description" => "Role that can Select, Save, and Update Information	but no delete it"]);
+        $this->role_crud = Role::create(["id" => 2,"name" => "CRUD Role","role" => null,"description" => "Role that can Select, Save, Update and Delete Information"]);
+        $this->role_cru = Role::create(["id" => 3,"name" => "CRU Role","role" => null,"description" => "Role that can Select, Save, and Update Information  but no delete it"]);
 
         $permission_index = Permission::create(["name" => "Languages List","route" =>"languages.index","path" => "/languages","description" => "See Languages List Information"]);
         $permission_show = Permission::create(["name" => "Show Language By Parameter","route" =>"languages.show","path" => null,"description" => "See Language By Parameter"]);

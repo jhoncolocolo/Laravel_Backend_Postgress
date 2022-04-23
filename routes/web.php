@@ -15,12 +15,5 @@ use App\Models\StepByLanguageOrFramework;
 */
 
 Route::get('/', function () {
-    $model = StepByLanguageOrFramework::find(1);
-    $users = \User::all();
-    return redirect(route('step_by_language_or_framework',$model));
+    return view("welcome");
 });
-
-
-Route::get('/step_by_language_or_framework/{stepByLanguageOrFramework}', function (StepByLanguageOrFramework $stepByLanguageOrFramework) {
-    return $stepByLanguageOrFramework->name;
-})->name('step_by_language_or_framework');
